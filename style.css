@@ -1,0 +1,92 @@
+body {
+  background-image: url("background.jpeg");
+}
+
+
+h1 {
+  text-align: center;
+  color: #05F2DB;
+  font: bold 40px Courier New;
+  text-shadow: 4px 4px 4px black;
+}
+
+#calc-body
+{
+  background-color: #270240;
+  margin: 8%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 3px solid #C425D9;
+  border-radius: 30px;
+  box-shadow: 3px 6px black;
+}
+
+#screen-container {
+  position: relative;
+  padding-left: 6%;
+  padding-right: 9%;
+}
+
+#screen {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  margin-bottom: 18px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.buttons-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 65px;
+  height: 65px;
+  background-color: #1C6C8C;
+  font-size: 25px;
+  color: #05F2DB;
+  margin-top: 10px;
+  margin-right: 4px;
+  border: 1px solid black;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #144C62;
+}
+
+#zero {
+  width: 130px;
+}
+
+
+/* Responsividade para telas de PC */
+@media screen and (min-width: 768px)
+{
+#calc-body
+{
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  
+}
+
+Button
+{
+  height: 45px;
+}
+
+.buttons-grid 
+{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+}

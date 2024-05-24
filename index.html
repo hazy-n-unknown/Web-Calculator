@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+				<meta charset="UTF-8">
+				<title>Calculadora Online</title>
+				<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<h1>Calculadora Online</h1>
+				
+	<section id="calc-body">
+		<div id="screen-container">
+			<input id="screen" type="text" value="0" disabled>
+		</div>
+				
+		<div class="buttons-grid">
+			<button onclick="clearAll()" id="C">C</button>
+			<button onclick="clearEntry()">CE</button>
+			<button onclick="perCentum()">%</button>
+			<button onclick="operation(this)" class="operator">÷</button>
+		</div>
+				
+		<div class="buttons-grid">
+			<button onclick="addNumber(this)">7</button>
+			<button onclick="addNumber(this)">8</button>
+			<button onclick="addNumber(this)">9</button>
+			<button onclick="operation(this)" class="operator">×</button>
+		</div>
+				
+		<div class=buttons-grid>
+			<button onclick="addNumber(this)">4</button>
+			<button onclick="addNumber(this)">5</button>
+			<button onclick="addNumber(this)">6</button>
+			<button onclick="operation(this)" class="operator">-</button>
+		</div>
+
+		<div class="buttons-grid">
+			<button onclick="addNumber(this)">1</button>
+			<button onclick="addNumber(this)">2</button>
+			<button onclick="addNumber(this)">3</button>
+			<button onclick="operation(this)" class="operator">+</button>
+		</div>
+				
+		<div class="buttons-grid">
+			<button onclick="addNumber(this)" id="zero">0</button>
+			<button onclick="decimate()">.</button>
+			<button id="results" class="operator" onclick="result()">=</button>
+		</div>
+	</section>			
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
