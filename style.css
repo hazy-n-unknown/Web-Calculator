@@ -1,22 +1,13 @@
 body {
-  background-image: url("background.jpeg");
+  background-color: #A3A3A3;
 }
 
-
-h1 {
-  text-align: center;
-  color: #05F2DB;
-  font: bold 40px Courier New;
-  text-shadow: 4px 4px 4px black;
-}
-
-#calc-body
-{
-  background-color: #270240;
+#calc-body {
+  background-color: #262626;
   margin: 8%;
   padding-top: 40px;
   padding-bottom: 40px;
-  border: 3px solid #C425D9;
+  border: 3px solid #E8BD10;
   border-radius: 30px;
   box-shadow: 3px 6px black;
 }
@@ -47,9 +38,9 @@ h1 {
 button {
   width: 65px;
   height: 65px;
-  background-color: #1C6C8C;
+  background-color: #545454;
   font-size: 25px;
-  color: #05F2DB;
+  color: #D4D4D4;
   margin-top: 10px;
   margin-right: 4px;
   border: 1px solid black;
@@ -58,7 +49,8 @@ button {
 }
 
 button:hover {
-  background-color: #144C62;
+  background-color: #E8BD10;
+  color: #262626;
 }
 
 #zero {
@@ -67,24 +59,19 @@ button:hover {
 
 
 /* Responsividade para telas de PC */
-@media screen and (min-width: 768px)
-{
-#calc-body
-{
+@media screen and (min-width: 768px) {
+
+#calc-body {
   margin-left: 38%;
   margin-right: 38%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  
+  margin-top: 5%;
 }
 
-Button
-{
+Button {
   height: 45px;
 }
 
-.buttons-grid 
-{
+.buttons-grid {
   padding-left: 4%;
   padding-right: 4%;
 }
